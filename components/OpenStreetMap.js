@@ -11,7 +11,6 @@ const Map2 = () => {
     <>
       <div className='container'>
         <div className='container'>
-          <h1 className='text-center-mt-5'>OpenStreetMap Embeded</h1>
         </div>
         <div className='row'>
           <div className='col'>
