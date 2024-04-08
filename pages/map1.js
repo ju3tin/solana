@@ -1,7 +1,7 @@
 import dynamic from 'next/dynamic'
 import { NextPage } from "next"
 import styles from "../styles/Home.module.css"
-import { AppBar } from "../components/AppBar"
+import { AppBar1 } from "../components/AppBar1"
 import { useWallet } from "@solana/wallet-adapter-react"
 import { Increment } from "../components/Increment"
 import { Initialize } from "../components/Initialize"
@@ -23,7 +23,7 @@ const OpenStreetMap = dynamic(() => import('../components/OpenStreetMap'), {
 const map1 = () => {
   return (
     <>
-     <AppBar />
+     <AppBar1 />
        <OpenStreetMap />
     </>
   )
