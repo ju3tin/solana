@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@chakra-ui/react": "^2.3.6",
-    "@emotion/react": "^11.10.4",
+    "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.10.4",
     "@project-serum/anchor": "^0.25.0",
     "@solana-mobile/wallet-adapter-mobile": "^0.0.1-alpha.8",
@@ -20,9 +20,11 @@
     "@solana/wallet-adapter-wallets": "^0.16.9",
     "@solana/web3.js": "^1.50.1",
     "framer-motion": "^7.6.1",
+    "leaflet": "^1.9.4",
     "next": "^12.2.3",
     "react": "^18.2.0",
-    "react-dom": "18.0.0"
+    "react-dom": "^18.2.0",
+    "react-leaflet": "^4.2.1"
   },
   "devDependencies": {
     "@types/node": "^17.0.23",
