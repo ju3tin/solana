@@ -9,7 +9,7 @@ import {Icon} from 'leaflet'
 
 const Map2 = () => {
   const [center, setCenter] = useState({ lat: -4.043477, lng: 39.668205 })
-  const ZOOM_LEVEL = 9
+  const ZOOM_LEVEL = 2
   const mapRef = useRef()
 
   return (
@@ -30,7 +30,7 @@ const Map2 = () => {
 					A pretty CSS3 popup. <br /> Easily customizable.
 				</Popup>
 			</Marker>
-            <Marker position={[51.505, 33.09]} icon={new Icon({iconUrl: ['/images/123a.png'], iconSize: [125, 141], iconAnchor: [12, 41]})}>
+            <Marker position={[-10.000,-55.9253]} icon={new Icon({iconUrl: ['/images/123a.png'], iconSize: [125, 141], iconAnchor: [12, 41]})}>
             <Popup>
 					A pretty CSS3 popup. <br /> Easily customizable.
 				</Popup>
