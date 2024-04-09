@@ -25,10 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/map1": [
+    "/map33": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/map1.js"
+      "static/chunks/pages/map33.js"
     ]
   },
   "ampFirstPages": []
