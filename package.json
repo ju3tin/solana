@@ -19,6 +19,8 @@
     "@solana/wallet-adapter-react-ui": "^0.9.11",
     "@solana/wallet-adapter-wallets": "^0.16.9",
     "@solana/web3.js": "^1.50.1",
+    "@types/leaflet": "^1.9.9",
+    "@types/react-leaflet": "^3.0.0",
     "framer-motion": "^7.6.1",
     "leaflet": "^1.9.4",
     "leaflet-defaulticon-compatibility": "^0.1.2",
