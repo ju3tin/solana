@@ -4,6 +4,8 @@ import "leaflet/dist/leaflet.css";
 import "leaflet-defaulticon-compatibility";
 import "leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css";
 import markerIconPng from "leaflet/dist/images/marker-icon.png"
+import markers from './markers1.js'; // Adjust the path as needed
+
 import {Icon} from 'leaflet'
 
 
@@ -34,6 +36,11 @@ const Map2 = () => {
         
      
 			</Marker>*/}
+       {markers.map((marker, index) => (
+          <Marker key={index} position={[marker.lat,marker.lng]} icon={new Icon({iconUrl: ['/images/123a.png'], iconSize: [125, 141], iconAnchor: [41, 41]})}>
+            <Popup>{marker.text}</Popup>
+          </Marker>
+        ))}
             <Marker position={[-10.000,-55.9253]} icon={new Icon({iconUrl: ['/images/123a.png'], iconSize: [125, 141], iconAnchor: [41, 41]})}>
             <Popup>
 					This coffee is from Brazil <a href="http://google.com">Click Here For More information</a>

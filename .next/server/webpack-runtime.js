@@ -82,7 +82,6 @@
 /******/ 		__webpack_require__.a = (module, body, hasAwait) => {
 /******/ 			var queue;
 /******/ 			hasAwait && ((queue = []).d = 1);
-/******/ 			if(queue) queue.moduleId = module.id;
 /******/ 			var depQueues = new Set();
 /******/ 			var exports = module.exports;
 /******/ 			var currentDeps;
@@ -94,7 +93,6 @@
 /******/ 			});
 /******/ 			promise[webpackExports] = exports;
 /******/ 			promise[webpackQueues] = (fn) => (queue && fn(queue), depQueues.forEach(fn), promise["catch"](x => {}));
-/******/ 			promise.moduleId = module.id;
 /******/ 			module.exports = promise;
 /******/ 			body((deps) => {
 /******/ 				currentDeps = wrapDeps(deps);
@@ -157,7 +155,7 @@
 /******/ 		// This function allow to reference async chunks and sibling chunks for the entrypoint
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return undefined;
+/******/ 			return "" + chunkId + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
