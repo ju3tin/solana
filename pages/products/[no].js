@@ -1,5 +1,5 @@
 import { useRouter } from 'next/router';
-import markers from '../markers/markers1'; // Adjust the path as needed
+import markers from '../markers/markers2'; // Adjust the path as needed
 
 
 function UserDetails() {
