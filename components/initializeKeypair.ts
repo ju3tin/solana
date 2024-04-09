@@ -1,7 +1,7 @@
 "use client"
 
 import * as web3 from "@solana/web3.js"
-import * as fs from "fs"
+//import * as fs from "fs"
 import dotenv from "dotenv"
 dotenv.config()
 
@@ -11,7 +11,7 @@ export async function initializeKeypair(
   if (!process.env.PRIVATE_KEY) {
     console.log("Creating .env file")
     const signer = web3.Keypair.generate()
-    fs.writeFileSync(".env", `PRIVATE_KEY=[${signer.secretKey.toString()}]`)
+    //fs.writeFileSync(".env", `PRIVATE_KEY=[${signer.secretKey.toString()}]`)
     await airdropSolIfNeeded(signer, connection)
 
     return signer
