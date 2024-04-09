@@ -19,11 +19,11 @@ import {
 const { connection } = useConnection()
 const wallet = useWallet()
 
-const provider = new AnchorProvider(connection, wallet, {})
-setProvider(provider)
+//const provider = new AnchorProvider(connection, wallet, {})
+//setProvider(provider)
 
-const programId = new PublicKey("JPLockxtkngHkaQT5AuRYow3HyUv5qWzmhwsCPd653n")
-const program = new Program(idl as Idl, programId)  
+//const programId = new PublicKey("JPLockxtkngHkaQT5AuRYow3HyUv5qWzmhwsCPd653n")
+//const program = new Program(idl as Idl, programId)  
 import {
   Spacer,
   VStack,
