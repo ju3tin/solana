@@ -6,7 +6,10 @@ const markers = [
     lat: 56.130366,
     lng: -106.346771,
     no: 1,
-    text: 'sdffsfsdfsdf'
+    text: 'sdffsfsdfsdf',
+    info: [
+      
+    ]
   },
   {
     name: 'Anguilla',
@@ -15,7 +18,6 @@ const markers = [
     lat: 18.220554,
     lng: -63.068615,
     no: 2,
-    id: 1,
     text: 'sdffsfsdfsdf'
   },
   {
