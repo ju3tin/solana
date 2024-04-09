@@ -29,12 +29,6 @@
       "static/chunks/node_modules_toruslabs_solana-embed_dist_solanaEmbed_esm_js.js"
     ]
   },
-  "map.tsx -> ../components/OpenStreetMap": {
-    "id": "map.tsx -> ../components/OpenStreetMap",
-    "files": [
-      "static/chunks/components_OpenStreetMap_js.js"
-    ]
-  },
   "map1.js -> ../components/OpenStreetMap": {
     "id": "map1.js -> ../components/OpenStreetMap",
     "files": [
