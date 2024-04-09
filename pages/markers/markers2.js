@@ -1,4 +1,4 @@
-const markers = [
+const markers2 = [
   {
     name: 'Canada',
     url: 'https://en.wikipedia.org/wiki/Canada',
@@ -137,4 +137,4 @@ const markers = [
 ]
 
 
-export default markers;
+export default markers2;

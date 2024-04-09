@@ -1,12 +1,12 @@
 import { useRouter } from 'next/router';
-import markers from '../markers/markers2'; // Adjust the path as needed
+import markers2 from '../markers/markers2'; // Adjust the path as needed
 
 
 function UserDetails() {
     const router = useRouter();
     const { no } = router.query;
   
-    const marker = markers.find((m) => m.no === parseInt(no));
+    const marker = markers2.find((m) => m.no === parseInt(no));
   
     return (
       <div>
