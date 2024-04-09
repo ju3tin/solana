@@ -16,8 +16,8 @@ import {
   setProvider,
 } from "@coral-xyz/anchor"
 
-const { connection } = useConnection()
-const wallet = useWallet()
+//const { connection } = useConnection()
+//const wallet = useWallet()
 
 //const provider = new AnchorProvider(connection, wallet, {})
 //setProvider(provider)
